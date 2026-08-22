@@ -14,6 +14,10 @@
 
 **This is the first number that popped up that was prime in both directions and I also noticed they were in the same general space for prime numbers used in private keys so I went ahead and made a key out of them which I haven't done anything else with yet so I'll have to see if there's any interesting properties:**
 
+```python
+python reversePrime.py -n 100 --bits 1024
+```
+
 [+] Found prime whose decimal reverse is also prime
 p  (1024 bits, 309 digits) = 170246364659557519180049442444635905701152089444916307619956883364496525516666362485733782012019677967537253198688973210252375181446328356736326298340305861981653255195784291618194720024800613630536172450020504780450206420916318493147101821849743238296816655383595350083438559709503145542409615519610265865121
 
